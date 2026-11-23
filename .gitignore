@@ -1,0 +1,116 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+env/
+.venv/
+ENV/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+token.json
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==============================
+# IDE & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Model Checkpoints
+# ==============================
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+
+# ==============================
+# Datasets & Large Files
+# ==============================
+data/raw/
+data/processed/
+datasets/
+*.csv
+*.parquet
+*.zip
+*.tar
+*.gz
+
+# ==============================
+# Vector Databases
+# ==============================
+chroma_db/
+chroma/
+.faiss/
+*.faiss
+*.index
+
+# ==============================
+# Cache
+# ==============================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache_huggingface/
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.bak
+temp/
+tmp/
+
+# ==============================
+# Google Colab
+# ==============================
+drive/

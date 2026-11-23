@@ -1,0 +1,15 @@
+streamlit
+pypdf
+langchain
+langchain-community
+langchain-google-genai
+python-dotenv
+faiss-cpu
+huggingface_hub
+sentence-transformers
+torch
+numpy
+pandas
+Pillow
+
+
